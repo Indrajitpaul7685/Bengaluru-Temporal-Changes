@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spatio Temporal Urban Expansion</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #007BFF;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            text-align: center;
+            padding: 10px;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+        .image-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .image-section img {
+            max-width: 50%;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .caption {
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+        .further-analysis {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .table-title {
+            font-size: 0.9em; /* Smaller font size for table titles */
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Spatio Temporal Urban Expansion</h1>
+
+
+
+<!-- Year-wise Urban Area Dynamics Table -->
+<div class="section">
+    
+    <div class="table-title">Table 1: Year-wise Urban Area Dynamics</div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Urban Area (sq km)</th>
+                <th>Increased</th>
+                <th>Growth Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1990</td>
+                <td>28.85939</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2000</td>
+                <td>93.997079</td>
+                <td>205.856126</td>
+                <td>22.57070887</td>
+            </tr>
+            <tr>
+                <td>2010</td>
+                <td>299.853205</td>
+                <td>205.856126</td>
+                <td>21.90026841</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>356.786</td>
+                <td>56.932795</td>
+                <td>1.898688893</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>
+
+
+
+<!-- Temporal Nature of Urban Metrics Table -->
+<div class="section">
+   
+    <div class="table-title">Table 2: Temporal Nature of Urban Metrics</div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Temporal Span</th>
+                <th>Area</th>
+                <th>Growth Rate</th>
+                <th>Increased</th>
+                <th>UEII</th>
+                <th>AUER</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1990 - 2000</td>
+                <td>28.85939</td>
+                <td>22.57070887</td>
+                <td>205.856126</td>
+                <td>0.908317</td>
+                <td>4200.227739</td>
+            </tr>
+            <tr>
+                <td>2000 - 2010</td>
+                <td>93.997079</td>
+                <td>21.90026841</td>
+                <td>205.856126</td>
+                <td>2.870252</td>
+                <td>4473.990854</td>
+            </tr>
+            <tr>
+                <td>2010 - 2020</td>
+                <td>299.853205</td>
+                <td>1.898688893</td>
+                <td>56.932795</td>
+                <td>3.623242</td>
+                <td>1577.785891</td>
+            </tr>
+            <tr>
+                <td>1990 - 2020</td>
+                <td>356.786</td>
+                <td>113.6290857</td>
+                <td>327.92661</td>
+                <td>1.850453</td>
+                <td>11954.53625</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>
+
+<!-- Combined Image and Further Analysis Section -->
+<div class="section">
+    <h2>Analysis Overview</h2>
+    <div class="row">
+        <div class="col-md-6 image-section">
+            <h3>Urban Growth Visualization</h3>
+            <img src="urban change Bengaluru.gif" alt="Urban Growth Visualization">
+            <div class="caption">
+                Figure 1: Urban Growth Patterns Over Time
+            </div>
+        </div>
+        <div class="col-md-6 further-analysis">
+            <h3>Further Analysis</h3>
+            <p>The urban growth visualization of Bengaluru reveals a rapid and dispersed expansion pattern over three decades. In 1990, development was compact, centered around the city core (CBD, Basavanagudi). By 2000, growth began radiating outward, particularly toward the east (IT corridors like Whitefield) and south (Electronic City). The 2010 data shows accelerated sprawl along highways (Hosur Road, Tumakuru Road) and lake-constrained clusters. By 2020, urbanization became highly fragmented, with leapfrog developments in peripheral zones (Devannahalli, Sarjapur) and infilling of vacant inner areas. The visualization highlights uneven growth, with eastern dominance (driven by IT/industrial parks) and southern congestion, while the western and northern sectors expanded more gradually. This pattern underscores unplanned urbanization, stressing infrastructure and ecosystems—calling for transit-oriented development and greenbelt preservation to ensure sustainable growth.</p>
+        </div>
+    </div>
+</div>
+
+<!-- New Analysis Section -->
+<div class="section">
+    <h2>Detailed Analysis</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>New Insights</h3>
+            <p>
+                This map of Bengaluru's urban expansion from 1990 to 2020 clearly illustrates a dominant pattern of edge-expansion and infilling, indicating that the city's significant growth has occurred through outward spread from existing urban boundaries and the densification of already developed areas. Over these three decades, the cumulative impact reveals a dramatic transformation of the landscape, with urbanized areas becoming increasingly extensive and contiguous, rather than primarily new, isolated developments. This suggests a highly dynamic and often uncontrolled urban sprawl, leading to a much larger and more consolidated metropolitan footprint.
+            </p>
+        </div>
+        <div class="col-md-6 image-section">
+            <img src="LEI_BENGALURU.jpg" alt="New Insights Visualization">
+            <div class="caption">
+                Figure 2: Scenario of typical urban expansions on temporal manner
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Additional Metrics Table -->
+<div class="section">
+    
+    <div class="table-title">Table 3: Temporal and areal dynamics of typical urban expansion</div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Outlying</th>
+                <th>Edge - Expansion</th>
+                <th>Infilling</th>
+              
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1990 - 2000</td>
+                <td>6.9705</td>
+                <td>111.405</td>
+                <td>4.0644</td>
+                
+            </tr>
+            <tr>
+                <td>2000 - 2010</td>
+                <td>0.0009</td>
+                <td>10.7739</td>
+                <td>0.0009</td>
+            </tr>
+            <tr>
+                <td>2010 - 2020</td>
+                <td>1.9782</td>
+                <td>200.8521</td>
+                <td>7.8426</td>
+
+            </tr>
+            <tr>
+                <td>1990 - 2020</td>
+                <td>0.0009</td>
+                <td>0.0009</td>
+                <td>7.1838</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>
+
+
+
+<!-- Footer -->
+<footer>
+    <p>© 2024-2025 All Rights reserved</p>
+</footer>
+
+</body>
+</html>
